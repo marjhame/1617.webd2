@@ -57,6 +57,15 @@ background-image: url(img/patroon.png)
  .link:hover {
      color: #b7b6b7;
  }
+
+article.news-article {
+  column-count:2;
+}
+article.news-article p:first-child {
+  margin-top: 0;
+}
+
+
 nav#main-navigation {
     display: block;
     text-align: center;
@@ -65,7 +74,7 @@ nav#main-navigation  ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    border-top: 3px solid #f7d4cd;
+    
     padding-bottom: 5px;
     padding-top: 5px;
     text-align: center;
@@ -77,6 +86,10 @@ nav a {
     background-size: cover;
  
 }
+#main-navigation > ul {
+  border-top: 3px solid #f7d4cd;
+}
+
 #main-navigation >ul> li{
   float:left;
   width: 25%;
@@ -102,9 +115,22 @@ color: #595b5b;
 #main-navigation >ul> li.active a {
     background-color: white;
 
+}
+#main-navigation a.active {
+    color: #595b5b;
+
 } 
+#main-navigation .hasSubMenu {
+    position: relative;
+}
+
 #main-navigation .hasSubMenu > ul {
     display:none;
+    position:absolute;
+    z-index:999;
+    top: 40px;
+    
+    width:100%;
 }
 #main-navigation .hasSubMenu:hover > ul {
     display:block;
@@ -114,6 +140,7 @@ color: #595b5b;
     display:block;
     padding:5px 10px;
     border-top: white;
+    border: 1px solid white;
 }
 
 .submenu2 {
@@ -517,7 +544,7 @@ button:hover, a:hover {
 }
 
 .map {
-  padding-bottom: 10px;
+  padding-bottom: 80px;
 }
 
 .image2 {
@@ -568,4 +595,24 @@ button:hover, a:hover {
 .social {
   color: #f7d4cd;
   padding: 20px;
+}
+
+.contact {
+  padding-top: 50px;
+}
+
+.form {
+  padding-top: 30px;
+}
+
+.studiolein {
+  padding-bottom: 80px;
+}
+
+.bottom {
+  padding-bottom: 80px;
+}
+
+.team {
+  padding-bottom: 50px;
 }
