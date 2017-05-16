@@ -43,6 +43,17 @@ background-image: url(img/patroon.png)
 
  }
 
+ .aanhef {
+            font-family: 'Questrial', sans-serif;
+     font-size: 16px;
+     color: #868c89;
+    
+}
+
+.aanhef_bol {
+  margin-left: 10px;
+}
+
  .link:hover {
      color: #b7b6b7;
  }
@@ -88,8 +99,7 @@ border-right:none;
 #main-navigation ul li a:hover {
 color: #595b5b;
 }
-#main-navigation >ul> li.active a{
-    color: #595b5b;
+#main-navigation >ul> li.active a {
     background-color: white;
 
 } 
@@ -500,3 +510,62 @@ input[type=text], textarea {
   opacity: 0.5;
 }
 
+
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+.map {
+  padding-bottom: 10px;
+}
+
+.image2 {
+  display: block;
+  width: 350px;
+  height: 411px;
+  padding-top: 20px;
+  
+}
+
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 50%;
+  overflow: hidden;
+  width: 350px;
+  height: 411px;
+  transition: .5s ease;
+  
+}
+
+.container2:hover .overlay {
+  height: 100%;
+  
+}
+
+.text2 {
+  white-space: nowrap; 
+  color: #595b5b;
+  font-size: 20px;
+  font-family: 'Questrial', sans-serif;
+  position: absolute;
+  overflow: hidden;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  padding-bottom: 20px;
+
+}
+
+.container:hover .image {
+  opacity: 0.5;
+}
+
+.social {
+  color: #f7d4cd;
+  padding: 20px;
+}
