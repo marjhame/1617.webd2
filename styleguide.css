@@ -1,0 +1,502 @@
+
+ body{
+background-image: url(img/patroon.png)
+
+ }
+ h2 {
+     font-size: 20px;
+     font-family: 'Miriam Libre', sans-serif;
+     color: #868c89;
+     padding-top: 10px;
+ }
+ h3 { font-size: 19px;
+      font-family: 'Miriam Libre', sans-serif;
+      color: #868c89;
+     
+
+ }
+
+  h4 { font-size: 18px;
+      font-family: 'Miriam Libre', sans-serif;
+      color: #868c89;
+     
+
+ }
+
+  h5 { font-size: 17px;
+      font-family: 'Miriam Libre', sans-serif;
+      color: #868c89;
+      
+
+ }
+
+ p {
+     font-family: 'Questrial', sans-serif;
+     font-size: 16px;
+     color: #868c89;
+ }
+
+ .link { 
+     font-family: 'Questrial', sans-serif;
+     font-size: 16px;
+     color: #f7d4cd;
+
+ }
+
+ .link:hover {
+     color: #b7b6b7;
+ }
+nav#main-navigation {
+    display: block;
+    text-align: center;
+}
+nav#main-navigation  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 3px solid #f7d4cd;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+    /*display: inline-block;
+    margin: 0 auto;*/
+}
+nav a {
+    text-decoration: none;
+    background-size: cover;
+ 
+}
+#main-navigation >ul> li{
+  float:left;
+  width: 25%;
+
+}
+#main-navigation ul li a{
+   display:block;
+   background-color:white;
+   padding:10px 20px;
+   color:#b7b6b7;
+   border-right:3px solid #f7d4cd;
+   font-family: 'Miriam Libre', sans-serif;
+   background-position: center;
+   font-size: 20px;
+}
+#main-navigation ul li:last-of-type a{
+border-right:none;
+}
+
+#main-navigation ul li a:hover {
+color: #595b5b;
+}
+#main-navigation >ul> li.active a{
+    color: #595b5b;
+    background-color: white;
+
+} 
+#main-navigation .hasSubMenu > ul {
+    display:none;
+}
+#main-navigation .hasSubMenu:hover > ul {
+    display:block;
+}
+#main-navigation .hasSubMenu li a{
+    background-color: white;
+    display:block;
+    padding:5px 10px;
+    border-top: white;
+}
+
+.submenu2 {
+    border-bottom: none;
+    border-top: none;
+}
+
+.logo {
+  margin: auto;
+  display: block;
+  height:  270px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+
+}
+
+.footer {
+     font-family: 'Questrial', sans-serif;
+     font-size: 12px;
+     color: white;
+     padding:10px 20px;
+     border-right:2px solid #f7d4cd;
+     background-color: #f7d4cd;
+}
+.develop {
+    font-family: 'Questrial', sans-serif;
+     font-size: 12px;
+     color: #b7b6b7;
+}
+
+.vierkant-color {
+    border: solid 1px #b7b6b7;
+    width: 100%;
+    padding: 50% 0;
+}
+
+.vierkant-color-1 {
+    background-color: #f7d4cd;
+}
+.vierkant-color-2 {
+    background-color: #b7b6b7;
+}
+.vierkant-color-3 {
+    background-color: #868c89;
+}
+.vierkant-color-4 {
+    background-color: white;
+}
+
+a.verstuur_button {
+  display:block; /* eerst van de a een block-element maken */
+  width: 150px;
+  height: 42px;
+  line-height: 37px; /*tekst vertikaal in het midden centreren*/
+  padding-left: 46px; /*tekst opschuiven */
+  font-weight: 800;
+  color: white;
+  /* background*/
+  background-image: url(img/button.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% auto;
+  font-family: 'Questrial', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+ 
+
+}
+
+a.verstuur_button:hover {
+  /*enkel herhalen wat wijzigt, hier enkel de background-image */
+  background-image: url(img/button2.png);
+  color: #f7d4cd;
+}
+
+
+/* formulier
+--------------- */
+input[type=text], textarea {
+ color: #b7b6b7;  
+ width: 100%;
+ border: solid 1px #f7d4cd;
+}
+
+.foto {
+    border: 4px solid;
+    border-color: #f7d4cd;
+    
+}
+
+
+.grid__container {
+    background-color: white;
+    opacity: 1;
+
+}
+
+.groep{
+    width: 730px;
+    padding-top: 30px;
+}
+
+.hilton fairtrade bear {
+    width: 300px;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700|Lato);
+.csslider {
+  -moz-perspective: 1300px;
+  -ms-perspective: 1300px;
+  -webkit-perspective: 1300px;
+  perspective: 1300px;
+  display: inline-block;
+  text-align: left;
+  position: relative;
+  margin-bottom: 22px;
+}
+.csslider > input {
+  display: none;
+}
+.csslider > input:nth-of-type(10):checked ~ ul li:first-of-type {
+  margin-left: -900%;
+}
+.csslider > input:nth-of-type(9):checked ~ ul li:first-of-type {
+  margin-left: -800%;
+}
+.csslider > input:nth-of-type(8):checked ~ ul li:first-of-type {
+  margin-left: -700%;
+}
+.csslider > input:nth-of-type(7):checked ~ ul li:first-of-type {
+  margin-left: -600%;
+}
+.csslider > input:nth-of-type(6):checked ~ ul li:first-of-type {
+  margin-left: -500%;
+}
+.csslider > input:nth-of-type(5):checked ~ ul li:first-of-type {
+  margin-left: -400%;
+}
+.csslider > input:nth-of-type(4):checked ~ ul li:first-of-type {
+  margin-left: -300%;
+}
+.csslider > input:nth-of-type(3):checked ~ ul li:first-of-type {
+  margin-left: -200%;
+}
+.csslider > input:nth-of-type(2):checked ~ ul li:first-of-type {
+  margin-left: -100%;
+}
+.csslider > input:nth-of-type(1):checked ~ ul li:first-of-type {
+  margin-left: 0%;
+}
+.csslider > ul {
+  position: relative;
+  width: 720px;
+  height: 320px;
+  z-index: 1;
+  font-size: 0;
+  line-height: 0;
+  background-color: #f7d4cd;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.csslider > ul > li {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-size: 15px;
+  font-size: initial;
+  line-height: normal;
+  -moz-transition: all 0.5s cubic-bezier(0.4, 1.3, 0.65, 1);
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s cubic-bezier(0.4, 1.3, 0.65, 1);
+  transition: all 0.5s cubic-bezier(0.4, 1.3, 0.65, 1);
+  vertical-align: top;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  white-space: normal;
+}
+.csslider > ul > li.scrollable {
+  overflow-y: scroll;
+}
+.csslider > .navigation {
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  z-index: 10;
+  margin-bottom: -10px;
+  font-size: 0;
+  line-height: 0;
+  text-align: center;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.csslider > .navigation > div {
+  margin-left: -100%;
+}
+.csslider > .navigation label {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 50%;
+  margin: 0 4px;
+  padding: 4px;
+  background: #b7b6b7;
+}
+.csslider > .navigation label:hover:after {
+  opacity: 1;
+}
+.csslider > .navigation label:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -6px;
+  margin-top: -6px;
+  background: #f7d4cd;
+  border-radius: 50%;
+  padding: 6px;
+  opacity: 0;
+}
+.csslider > .arrows {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.csslider.inside .navigation {
+  bottom: 10px;
+  margin-bottom: 10px;
+}
+.csslider.inside .navigation label {
+  border: 1px solid #f7d4cd;
+}
+.csslider > input:nth-of-type(1):checked ~ .navigation label:nth-of-type(1):after,
+.csslider > input:nth-of-type(2):checked ~ .navigation label:nth-of-type(2):after,
+.csslider > input:nth-of-type(3):checked ~ .navigation label:nth-of-type(3):after,
+.csslider > input:nth-of-type(4):checked ~ .navigation label:nth-of-type(4):after,
+.csslider > input:nth-of-type(5):checked ~ .navigation label:nth-of-type(5):after,
+.csslider > input:nth-of-type(6):checked ~ .navigation label:nth-of-type(6):after,
+.csslider > input:nth-of-type(7):checked ~ .navigation label:nth-of-type(7):after,
+.csslider > input:nth-of-type(8):checked ~ .navigation label:nth-of-type(8):after,
+.csslider > input:nth-of-type(9):checked ~ .navigation label:nth-of-type(9):after,
+.csslider > input:nth-of-type(10):checked ~ .navigation label:nth-of-type(10):after,
+.csslider > input:nth-of-type(11):checked ~ .navigation label:nth-of-type(11):after {
+  opacity: 1;
+}
+.csslider > .arrows {
+  position: absolute;
+  left: -31px;
+  top: 50%;
+  width: 100%;
+  height: 26px;
+  padding: 0 31px;
+  z-index: 0;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.csslider > .arrows label {
+  display: none;
+  position: absolute;
+  top: -50%;
+  padding: 13px;
+  box-shadow: inset 2px -2px 0 1px #b7b6b7;
+  cursor: pointer;
+  -moz-transition: box-shadow 0.15s, margin 0.15s;
+  -o-transition: box-shadow 0.15s, margin 0.15s;
+  -webkit-transition: box-shadow 0.15s, margin 0.15s;
+  transition: box-shadow 0.15s, margin 0.15s;
+}
+.csslider > .arrows label:hover {
+  box-shadow: inset 3px -3px 0 2px #f7d4cd;
+  margin: 0 0px;
+}
+.csslider > .arrows label:before {
+  content: '';
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  height: 300%;
+  width: 300%;
+}
+.csslider.infinity > input:first-of-type:checked ~ .arrows label.goto-last,
+.csslider > input:nth-of-type(1):checked ~ .arrows > label:nth-of-type(0),
+.csslider > input:nth-of-type(2):checked ~ .arrows > label:nth-of-type(1),
+.csslider > input:nth-of-type(3):checked ~ .arrows > label:nth-of-type(2),
+.csslider > input:nth-of-type(4):checked ~ .arrows > label:nth-of-type(3),
+.csslider > input:nth-of-type(5):checked ~ .arrows > label:nth-of-type(4),
+.csslider > input:nth-of-type(6):checked ~ .arrows > label:nth-of-type(5),
+.csslider > input:nth-of-type(7):checked ~ .arrows > label:nth-of-type(6),
+.csslider > input:nth-of-type(8):checked ~ .arrows > label:nth-of-type(7),
+.csslider > input:nth-of-type(9):checked ~ .arrows > label:nth-of-type(8),
+.csslider > input:nth-of-type(10):checked ~ .arrows > label:nth-of-type(9),
+.csslider > input:nth-of-type(11):checked ~ .arrows > label:nth-of-type(10) {
+  display: block;
+  left: 0;
+  right: auto;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.csslider.infinity > input:last-of-type:checked ~ .arrows label.goto-first,
+.csslider > input:nth-of-type(1):checked ~ .arrows > label:nth-of-type(2),
+.csslider > input:nth-of-type(2):checked ~ .arrows > label:nth-of-type(3),
+.csslider > input:nth-of-type(3):checked ~ .arrows > label:nth-of-type(4),
+.csslider > input:nth-of-type(4):checked ~ .arrows > label:nth-of-type(5),
+.csslider > input:nth-of-type(5):checked ~ .arrows > label:nth-of-type(6),
+.csslider > input:nth-of-type(6):checked ~ .arrows > label:nth-of-type(7),
+.csslider > input:nth-of-type(7):checked ~ .arrows > label:nth-of-type(8),
+.csslider > input:nth-of-type(8):checked ~ .arrows > label:nth-of-type(9),
+.csslider > input:nth-of-type(9):checked ~ .arrows > label:nth-of-type(10),
+.csslider > input:nth-of-type(10):checked ~ .arrows > label:nth-of-type(11),
+.csslider > input:nth-of-type(11):checked ~ .arrows > label:nth-of-type(12) {
+  display: block;
+  right: 0;
+  left: auto;
+  -moz-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  -o-transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
+  transform: rotate(225deg);
+}
+
+.hiltonfoto fairtrade bear {
+    width: 100%;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+ padding-bottom: 20px;
+  /*padding-bottom: 50px;*/
+  
+}
+
+.image {
+  display: block;
+  width: 350px;
+  height: auto;
+  padding-top: 20px;
+  
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 50%;
+  overflow: hidden;
+  width: 350px;
+  height: 0;
+  transition: .5s ease;
+  
+}
+
+.container:hover .overlay {
+  height: 100%;
+  
+}
+
+.text {
+  white-space: nowrap; 
+  color: #595b5b;
+  font-size: 20px;
+  font-family: 'Questrial', sans-serif;
+  position: absolute;
+  overflow: hidden;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  padding-bottom: 20px;
+
+}
+
+.container:hover .image {
+  opacity: 0.5;
+}
+
