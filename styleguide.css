@@ -584,7 +584,7 @@ button:hover, a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  padding-bottom: 20px;
+  
 
 }
 
@@ -615,4 +615,16 @@ button:hover, a:hover {
 
 .team {
   padding-bottom: 50px;
+}
+
+.top {
+  padding-top: 35px;
+}
+
+.socialfooter {
+  color: white;
+}
+
+.email {
+  color: white;
 }
