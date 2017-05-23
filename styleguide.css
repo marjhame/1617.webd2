@@ -628,3 +628,12 @@ button:hover, a:hover {
 .email {
   color: white;
 }
+
+.icon {
+  color: #f7d4cd;
+  padding-right: 10px;
+}
+
+.mobile {
+  padding-right: 22px;
+}
