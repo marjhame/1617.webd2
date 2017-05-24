@@ -192,12 +192,12 @@ color: #595b5b;
 .vierkant-color-4 {
     background-color: white;
 }
-a.download_button {
-  display:block; /* eerst van de a een block-element maken */
+a.verstuur_button {
+  display:block; 
   width: 150px;
   height: 42px;
-  line-height: 42px; /*tekst vertikaal in het midden centreren*/
-  padding-left: 46px; /*tekst opschuiven */
+  line-height: 42px; 
+  padding-left: 46px; 
   font-weight: 800;
   color: #fff;
   /* background*/
@@ -209,37 +209,11 @@ a.download_button {
   font-size: 16px;
   text-decoration: none;
 }
-a.download_button:hover {
-  /*enkel herhalen wat wijzigt, hier enkel de background-image */
-  background-image: url(../assets/img/button2.png);
-}
-
-a.verstuur_button {
-  display:block; /* eerst van de a een block-element maken */
-  width: 150px;
-  height: 42px;
-  line-height: 37px; /*tekst vertikaal in het midden centreren*/
-  padding-left: 46px; /*tekst opschuiven */
-  font-weight: 800;
-  color: white;
-  /* background*/
-  background-image: url(img/button.png);
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: 100% auto;
-  font-family: 'Questrial', sans-serif;
-  font-size: 16px;
-  text-decoration: none;
- 
-
-}
-
 a.verstuur_button:hover {
   /*enkel herhalen wat wijzigt, hier enkel de background-image */
-  background-image: url(img/button2.png);
+  background-image: url(../assets/img/button2.png);
   color: #f7d4cd;
 }
-
 
 
 /* formulier
