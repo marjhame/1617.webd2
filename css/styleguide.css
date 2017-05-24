@@ -2,7 +2,7 @@
  
  
  body{
-background-image: url(../assets/img/patroon.png)
+background-image: url(/Users/marjoleinhamelink/Documents/Artevelde/Semester%202/Web2/app/assets/img/patroon.png)
 
  }
  h2 {
@@ -202,7 +202,7 @@ a.verstuur_button {
   font-weight: 800;
   color: white;
   /* background*/
-  background-image: url(../assets/img/button.png);
+  background-image: url(/Users/marjoleinhamelink/Documents/Artevelde/Semester%202/Web2/app/assets/img/button.png);
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 100% auto;
@@ -215,7 +215,7 @@ a.verstuur_button {
 
 a.verstuur_button:hover {
   /*enkel herhalen wat wijzigt, hier enkel de background-image */
-  background-image: url(../assets/img/button2.png);
+  background-image: url(/Users/marjoleinhamelink/Documents/Artevelde/Semester%202/Web2/app/assets/img/button2.png);
   color: #f7d4cd;
 }
 
